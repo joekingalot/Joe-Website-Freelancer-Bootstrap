@@ -566,16 +566,16 @@ th {
 .glyphicon-ban-circle:before {
   content: "\e090";
 }
-.glyphicon-arrow-left:before {
+.glyphicon-arxcol-left:before {
   content: "\e091";
 }
-.glyphicon-arrow-right:before {
+.glyphicon-arxcol-right:before {
   content: "\e092";
 }
-.glyphicon-arrow-up:before {
+.glyphicon-arxcol-up:before {
   content: "\e093";
 }
-.glyphicon-arrow-down:before {
+.glyphicon-arxcol-down:before {
   content: "\e094";
 }
 .glyphicon-share-alt:before {
@@ -677,16 +677,16 @@ th {
 .glyphicon-hand-down:before {
   content: "\e130";
 }
-.glyphicon-circle-arrow-right:before {
+.glyphicon-circle-arxcol-right:before {
   content: "\e131";
 }
-.glyphicon-circle-arrow-left:before {
+.glyphicon-circle-arxcol-left:before {
   content: "\e132";
 }
-.glyphicon-circle-arrow-up:before {
+.glyphicon-circle-arxcol-up:before {
   content: "\e133";
 }
-.glyphicon-circle-arrow-down:before {
+.glyphicon-circle-arxcol-down:before {
   content: "\e134";
 }
 .glyphicon-globe:before {
@@ -1600,7 +1600,7 @@ pre code {
   padding-left: 15px;
   padding-right: 15px;
 }
-.row {
+.xcol {
   margin-left: -15px;
   margin-right: -15px;
 }
@@ -3395,10 +3395,10 @@ input[type="button"].btn-block {
   display: block;
 }
 tr.collapse.in {
-  display: table-row;
+  display: table-xcol;
 }
 tbody.collapse.in {
-  display: table-row-group;
+  display: table-xcol-group;
 }
 .collapsing {
   position: relative;
@@ -5802,7 +5802,7 @@ button.close {
 }
 .modal-body {
   position: relative;
-  padding: 20px;
+  padding: 10px;
 }
 .modal-footer {
   padding: 20px;
@@ -5884,63 +5884,63 @@ button.close {
   background-color: #000000;
   border-radius: 4px;
 }
-.tooltip-arrow {
+.tooltip-arxcol {
   position: absolute;
   width: 0;
   height: 0;
   border-color: transparent;
   border-style: solid;
 }
-.tooltip.top .tooltip-arrow {
+.tooltip.top .tooltip-arxcol {
   bottom: 0;
   left: 50%;
   margin-left: -5px;
   border-width: 5px 5px 0;
   border-top-color: #000000;
 }
-.tooltip.top-left .tooltip-arrow {
+.tooltip.top-left .tooltip-arxcol {
   bottom: 0;
   right: 5px;
   margin-bottom: -5px;
   border-width: 5px 5px 0;
   border-top-color: #000000;
 }
-.tooltip.top-right .tooltip-arrow {
+.tooltip.top-right .tooltip-arxcol {
   bottom: 0;
   left: 5px;
   margin-bottom: -5px;
   border-width: 5px 5px 0;
   border-top-color: #000000;
 }
-.tooltip.right .tooltip-arrow {
+.tooltip.right .tooltip-arxcol {
   top: 50%;
   left: 0;
   margin-top: -5px;
   border-width: 5px 5px 5px 0;
   border-right-color: #000000;
 }
-.tooltip.left .tooltip-arrow {
+.tooltip.left .tooltip-arxcol {
   top: 50%;
   right: 0;
   margin-top: -5px;
   border-width: 5px 0 5px 5px;
   border-left-color: #000000;
 }
-.tooltip.bottom .tooltip-arrow {
+.tooltip.bottom .tooltip-arxcol {
   top: 0;
   left: 50%;
   margin-left: -5px;
   border-width: 0 5px 5px;
   border-bottom-color: #000000;
 }
-.tooltip.bottom-left .tooltip-arrow {
+.tooltip.bottom-left .tooltip-arxcol {
   top: 0;
   right: 5px;
   margin-top: -5px;
   border-width: 0 5px 5px;
   border-bottom-color: #000000;
 }
-.tooltip.bottom-right .tooltip-arrow {
+.tooltip.bottom-right .tooltip-arxcol {
   top: 0;
   left: 5px;
   margin-top: -5px;
@@ -5993,8 +5993,8 @@ button.close {
 .popover-content {
   padding: 9px 14px;
 }
-.popover > .arrow,
-.popover > .arrow:after {
+.popover > .arxcol,
+.popover > .arxcol:after {
   position: absolute;
   display: block;
   width: 0;
@@ -6002,14 +6002,14 @@ button.close {
   border-color: transparent;
   border-style: solid;
 }
-.popover > .arrow {
+.popover > .arxcol {
   border-width: 11px;
 }
-.popover > .arrow:after {
+.popover > .arxcol:after {
   border-width: 10px;
   content: "";
 }
-.popover.top > .arrow {
+.popover.top > .arxcol {
   left: 50%;
   margin-left: -11px;
   border-bottom-width: 0;
@@ -6017,14 +6017,14 @@ button.close {
   border-top-color: rgba(0, 0, 0, 0.25);
   bottom: -11px;
 }
-.popover.top > .arrow:after {
+.popover.top > .arxcol:after {
   content: " ";
   bottom: 1px;
   margin-left: -10px;
   border-bottom-width: 0;
   border-top-color: #ffffff;
 }
-.popover.right > .arrow {
+.popover.right > .arxcol {
   top: 50%;
   left: -11px;
   margin-top: -11px;
@@ -6032,14 +6032,14 @@ button.close {
   border-right-color: #999999;
   border-right-color: rgba(0, 0, 0, 0.25);
 }
-.popover.right > .arrow:after {
+.popover.right > .arxcol:after {
   content: " ";
   left: 1px;
   bottom: -10px;
   border-left-width: 0;
   border-right-color: #ffffff;
 }
-.popover.bottom > .arrow {
+.popover.bottom > .arxcol {
   left: 50%;
   margin-left: -11px;
   border-top-width: 0;
@@ -6047,14 +6047,14 @@ button.close {
   border-bottom-color: rgba(0, 0, 0, 0.25);
   top: -11px;
 }
-.popover.bottom > .arrow:after {
+.popover.bottom > .arxcol:after {
   content: " ";
   top: 1px;
   margin-left: -10px;
   border-top-width: 0;
   border-bottom-color: #ffffff;
 }
-.popover.left > .arrow {
+.popover.left > .arxcol {
   top: 50%;
   right: -11px;
   margin-top: -11px;
@@ -6062,7 +6062,7 @@ button.close {
   border-left-color: #999999;
   border-left-color: rgba(0, 0, 0, 0.25);
 }
-.popover.left > .arrow:after {
+.popover.left > .arxcol:after {
   content: " ";
   right: 1px;
   border-right-width: 0;
@@ -6299,8 +6299,8 @@ button.close {
 .container:after,
 .container-fluid:before,
 .container-fluid:after,
-.row:before,
-.row:after,
+.xcol:before,
+.xcol:after,
 .form-horizontal .form-group:before,
 .form-horizontal .form-group:after,
 .btn-toolbar:before,
@@ -6328,7 +6328,7 @@ button.close {
 .dl-horizontal dd:after,
 .container:after,
 .container-fluid:after,
-.row:after,
+.xcol:after,
 .form-horizontal .form-group:after,
 .btn-toolbar:after,
 .btn-group-vertical > .btn-group:after,
@@ -6405,7 +6405,7 @@ button.close {
     display: table;
   }
   tr.visible-xs {
-    display: table-row !important;
+    display: table-xcol !important;
   }
   th.visible-xs,
   td.visible-xs {
@@ -6435,7 +6435,7 @@ button.close {
     display: table;
   }
   tr.visible-sm {
-    display: table-row !important;
+    display: table-xcol !important;
   }
   th.visible-sm,
   td.visible-sm {
@@ -6465,7 +6465,7 @@ button.close {
     display: table;
   }
   tr.visible-md {
-    display: table-row !important;
+    display: table-xcol !important;
   }
   th.visible-md,
   td.visible-md {
@@ -6495,7 +6495,7 @@ button.close {
     display: table;
   }
   tr.visible-lg {
-    display: table-row !important;
+    display: table-xcol !important;
   }
   th.visible-lg,
   td.visible-lg {
@@ -6548,7 +6548,7 @@ button.close {
     display: table;
   }
   tr.visible-print {
-    display: table-row !important;
+    display: table-xcol !important;
   }
   th.visible-print,
   td.visible-print {
